@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "MovInfo",
+    "slug": "MovInfo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/clapperboard.png",
+    "splash": {
+      "image": "./assets/clapperboard.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#232020"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/clapperboard.png",
+        "backgroundColor": "#232020"
+      },
+      "package": "com.royalapps.movinfo",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/clapperboard.png"
+    }
+  }
+}
